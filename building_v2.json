@@ -1,0 +1,66 @@
+{
+  "root": {
+    "parent": "none",
+    "resource": "root.glb",
+    "template": "T_root_warm_B.glb",
+    "muestra_forner": {
+      "resource": "muestra_forner.glb",
+      "resource_type": "door"
+    }
+  },
+  "muestra_forner": {
+    "parent": "root",
+    "resource": "muestra_forner.glb",
+    "template": "T_nopannels_warm_B.glb",
+    "24241@2x": {
+      "resource": "/muestra_forner/24241@2x.jpg",
+      "resource_type": "image",
+      "width": "177.81",
+      "height": "250.00",
+      "location": "[8.950,17.950,2.000]",
+      "vector": "[-1.0,0.0]",
+      "metadata": "24241@2x"
+    },
+    "forner2": {
+      "resource": "/muestra_forner/forner2.jpg",
+      "resource_type": "image",
+      "width": "95.57",
+      "height": "120.00",
+      "location": "[8.950,6.000,2.000]",
+      "vector": "[-1.0,0.0]",
+      "metadata": "forner2"
+    },
+    "forner3": {
+      "resource": "/muestra_forner/forner3.jpg",
+      "resource_type": "image",
+      "width": "85.36",
+      "height": "120.00",
+      "location": "[8.950,-6.000,2.000]",
+      "vector": "[-1.0,0.0]",
+      "metadata": "forner3"
+    },
+    "forner4": {
+      "resource": "/muestra_forner/forner4.jpg",
+      "resource_type": "image",
+      "width": "120.00",
+      "height": "86.86",
+      "location": "[8.950,-17.950,2.000]",
+      "vector": "[-1.0,0.0]",
+      "metadata": "forner4"
+    },
+    "root": {
+      "resource": "root.glb",
+      "resource_type": "door"
+    }
+  },
+  "Technical": {
+    "ambientLight": 0.5,
+    "pointLight": 50,
+    "style": "warm",
+    "show_plaques": false,
+    "show_frames": true,
+    "skip_hub": false,
+    "title": "Retrospectiva Raquel Forner",
+    "description": "Hola! Esto es una prueba"
+  }
+}
